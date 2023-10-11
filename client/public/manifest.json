@@ -1,0 +1,9 @@
+{
+  "short_name": "BC-Project",
+  "name": "mahaan-jain-ecc-dssb-is24-code-challenge",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

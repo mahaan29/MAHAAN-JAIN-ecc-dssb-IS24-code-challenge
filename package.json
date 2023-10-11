@@ -1,0 +1,13 @@
+{
+  "name": "mahaan-jain-ecc-dssb-is24-code-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm i && concurrently \"cd client && npm install\" \"cd server && npm install && npm run build\"",
+    "start": "concurrently \"cd client && npm run start\" \"cd server && npm run start:prod\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
