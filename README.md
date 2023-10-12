@@ -15,7 +15,9 @@ To start the application, run the following command:
 
 `npm run start`
 
-This will start the server and open the application in your default browser. The frontend can be accessed at localhost:4000, while the backend is available at localhost:3000. To restart the server, just use the start command, no need to setup the repository again.
+This will start the server and open the application in your default browser. The frontend can be accessed at localhost:4000, while the backend is available at localhost:3000. To access the Swagger documentation, go to localhost:3000/api/api-docs.
+
+To restart the server, just use the start command, no need to setup the repository again.
 
 ### Technologies Used:
 
