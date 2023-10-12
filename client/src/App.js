@@ -250,28 +250,28 @@ function App() {
               }}
             >
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Product ID"
                 dataIndex="productId"
                 key="productId"
                 render={renderText}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Product Name"
                 dataIndex="productName"
                 key="productName"
                 render={renderText}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Product Owner"
                 dataIndex="productOwnerName"
                 key="productOwnerName"
                 render={renderText}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Developers"
                 dataIndex="Developers"
                 key="Developers"
@@ -284,7 +284,7 @@ function App() {
                 onFilterDropdownOpenChange={onFilterDropdownOpenChange}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Scrum Master"
                 dataIndex="scrumMasterName"
                 key="scrumMasterName"
@@ -297,28 +297,28 @@ function App() {
                 onFilterDropdownOpenChange={onFilterDropdownOpenChange}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Start Date"
                 dataIndex="startDate"
                 key="startDate"
                 render={renderDate}
               />
               <Table.Column
-                width="12.5%"
+                width="20%"
                 title="Location"
                 dataIndex="location"
                 key="location"
                 render={renderText}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Methodology"
                 dataIndex="methodology"
                 key="methodology"
                 render={renderText}
               />
               <Table.Column
-                width="12.5%"
+                width="10%"
                 title="Action"
                 key="action"
                 render={renderAction}
