@@ -304,7 +304,7 @@ function App() {
                 render={renderDate}
               />
               <Table.Column
-                width="20%"
+                width="15%"
                 title="Location"
                 dataIndex="location"
                 key="location"
@@ -318,7 +318,7 @@ function App() {
                 render={renderText}
               />
               <Table.Column
-                width="10%"
+                width="15%"
                 title="Action"
                 key="action"
                 render={renderAction}
